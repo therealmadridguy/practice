@@ -1,0 +1,12 @@
+list1 = input('input elements for the list:')
+list1 = list1.split()
+list2=[]
+for i in list1:
+    i = int(i)
+    list2.append(i)
+positiveelements = []
+for i in list2:
+    if i>0:
+        positiveelements.append(i)
+print(list2)
+print(positiveelements)
