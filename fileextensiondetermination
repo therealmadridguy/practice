@@ -1,0 +1,11 @@
+fname = input('Input the Filename:')
+x = fname.find('.')
+extension = fname[x+1:]
+if extension == 'py':
+    print('The extension of the file is : python')
+elif extension == 'c':
+    print('The extension of the file is : C')
+elif extension == 'cpp'or extension == 'cxx' or extension == 'cc':
+    print('The extension of the file is : C Plus Plus')
+
+#we can add more extensions in using elif statments
