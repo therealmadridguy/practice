@@ -1,0 +1,10 @@
+str = input("enter the string:")
+alphabets = list(str)
+alphacount = {}
+for alphabet in alphabets:
+    if alphabet in alphacount:
+        alphacount[alphabet]=alphacount[alphabet]+1
+    else:
+        alphacount[alphabet]=1
+
+print("i = ",alphacount["i"],"s = ",alphacount["s"],"p = ",alphacount["p"],"m = ",alphacount["m"])
